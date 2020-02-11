@@ -1,0 +1,1 @@
+insert into item values(3,'item4',8);

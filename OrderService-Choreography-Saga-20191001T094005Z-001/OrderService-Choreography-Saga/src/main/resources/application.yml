@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: OrderService
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+server:
+  port: 9192

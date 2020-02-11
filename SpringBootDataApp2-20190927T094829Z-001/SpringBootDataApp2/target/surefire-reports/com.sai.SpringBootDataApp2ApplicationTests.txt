@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sai.SpringBootDataApp2ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 8.677 s - in com.sai.SpringBootDataApp2ApplicationTests

@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      database: local
+      uri: mongodb://mongo:27017

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: OrderService
+    
+    
+  cloud:
+    consul:
+      discovery:
+        instance-id: ${spring.application.name}
+        heartbeat:
+          enabled: true
+
+server:
+  port: 8181

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: CartService
+    
+    
+  cloud:
+    consul:
+      discovery:
+        instance-id: ${spring.application.name}
+        heartbeat:
+          enabled: true
+          
+server:
+  port: 8182

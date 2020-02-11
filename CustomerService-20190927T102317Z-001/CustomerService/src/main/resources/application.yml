@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: CustomerService
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/testflyway
+    username: sai
+    password: sai
+    
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+      
+eureka: 
+  client: 
+    serviceUrl: 
+       defaultZone: ${EUREKA_URI:http://localhost:9090/eureka/}
+#    register-with-eureka: false
+#    fetch-registry: false
+  instance: 
+    prefer-ip-address: true
+    home-page-url: http://localhost:9090/

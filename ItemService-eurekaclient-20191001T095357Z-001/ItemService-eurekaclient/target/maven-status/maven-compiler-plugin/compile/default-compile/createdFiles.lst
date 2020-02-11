@@ -1,0 +1,5 @@
+com\sai\ItemServiceApplication.class
+com\sai\entities\Item.class
+com\sai\controllers\ItemController.class
+com\sai\repositories\ItemRepository.class
+com\sai\services\ItemService.class

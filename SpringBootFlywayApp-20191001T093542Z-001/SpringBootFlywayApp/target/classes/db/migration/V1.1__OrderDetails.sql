@@ -1,0 +1,1 @@
+create table orderdetails(id int primary key,ordername varchar(30));

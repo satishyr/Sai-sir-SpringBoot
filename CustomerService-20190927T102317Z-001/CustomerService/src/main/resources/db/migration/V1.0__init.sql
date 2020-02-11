@@ -1,0 +1,1 @@
+insert into customer values(2,'kumar',40);

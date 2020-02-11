@@ -1,0 +1,33 @@
+server:
+  port: 8686
+  
+spring:
+  application:
+    name: API-GATEWAY-ZUUL
+    
+eureka: 
+  client: 
+    serviceUrl: 
+       defaultZone: ${EUREKA_URI:http://localhost:9090/eureka/}
+    register-with-eureka: true
+    fetch-registry: true
+  instance: 
+    prefer-ip-address: true
+    home-page-url: http://localhost:9090/
+    
+zuul:
+  routes:
+    PatientService:
+       path: /api/v1/fetch/patients
+       service-id: PatientService
+#     CustomerService:
+#        path: /v1/all
+#        service-id: CustomerService
+
+#ribbon:
+#  eureka:
+#    enabled: false      
+       
+#PatientService: 
+#  ribbon:
+#    listOfServers: http://localhost:9191,http://localhost:9192       

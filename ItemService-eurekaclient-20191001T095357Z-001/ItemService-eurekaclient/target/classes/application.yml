@@ -1,0 +1,21 @@
+server:
+  port: 8787
+  
+spring:
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  application:
+    name: ItemService
+    
+eureka: 
+  client: 
+    serviceUrl: 
+       defaultZone: http://eureka:9090/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    hostname: eureka
+    prefer-ip-address: true

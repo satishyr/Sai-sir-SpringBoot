@@ -1,0 +1,1 @@
+create table order(id integer primary key,name varchar(30),custid integer,amount double,state varchar(30));

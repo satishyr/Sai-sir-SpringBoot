@@ -1,0 +1,3 @@
+com\sai\SpringBootDataApp2Application.class
+com\sai\entities\Teacher.class
+com\sai\repositories\TeacherRepository.class

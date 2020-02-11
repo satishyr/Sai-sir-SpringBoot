@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: HotelService
+    
+  cloud:
+    zookeeper:
+      discovery:
+        instance-id: ${spring.application.name}
+        
+server:
+  port: 9798

@@ -1,0 +1,4 @@
+com\sai\SpringBootDataApp5Application.class
+com\sai\entities\Blog.class
+com\sai\entities\Comments.class
+com\sai\repositories\BlogRepository.class

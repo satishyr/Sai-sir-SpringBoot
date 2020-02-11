@@ -1,0 +1,12 @@
+ Patient-Service: 
+  ribbon:
+   eureka:
+    enabled: false
+   listOfServers: localhost:9191,localhost:9192
+   
+ eureka:
+  client:
+    enabled: false
+    
+ server:
+  port: 8787
